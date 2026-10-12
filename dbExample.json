@@ -1,0 +1,318 @@
+{
+  "users": [
+    {
+      "id": "admin",
+      "userName": "admin",
+      "email": "admin@gmail.com",
+      "password": "Admin@123",
+      "role": "admin"
+    }
+  ],
+  "passengers": [],
+  "trains": [
+    {
+      "id": "1",
+      "number": "12727",
+      "name": "Godavari Express",
+      "source": "Visakhapatnam",
+      "destination": "Hyderabad",
+      "departure": "17:20",
+      "arrival": "05:45",
+
+      "arrivalDay": 2,
+      "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      "availability": {
+        "SL": {
+          "General": 120,
+          "Tatkal": 18,
+          "Ladies": 6
+        },
+        "3A": {
+          "General": 42,
+          "Tatkal": 8,
+          "Ladies": 2
+        },
+        "2A": {
+          "General": 10,
+          "Tatkal": 2,
+          "Ladies": 0
+        },
+        "1A": {
+          "General": 4,
+          "Tatkal": 0,
+          "Ladies": 0
+        }
+      },
+      "fare": {
+        "SL": 380,
+        "3A": 1010,
+        "2A": 1440,
+        "1A": 2430
+      }
+    },
+    {
+      "id": "2",
+      "number": "12805",
+      "name": "Janmabhoomi Express",
+      "source": "Visakhapatnam",
+      "destination": "Hyderabad",
+      "departure": "06:20",
+      "arrival": "19:40",
+
+      "arrivalDay": 1,
+      "days": ["Mon", "Wed", "Fri", "Sat"],
+      "availability": {
+        "SL": {
+          "General": 64,
+          "Tatkal": 10,
+          "Ladies": 4
+        },
+        "3A": {
+          "General": 0,
+          "Tatkal": 3,
+          "Ladies": 0
+        },
+        "2A": {
+          "General": 6,
+          "Tatkal": 0,
+          "Ladies": 0
+        }
+      },
+      "fare": {
+        "SL": 360,
+        "3A": 960,
+        "2A": 1370
+      }
+    },
+    {
+      "id": "3",
+      "number": "12728",
+      "name": "Godavari Express",
+      "source": "Hyderabad",
+      "destination": "Visakhapatnam",
+      "departure": "17:15",
+      "arrival": "05:50",
+
+      "arrivalDay": 2,
+      "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      "availability": {
+        "SL": {
+          "General": 98,
+          "Tatkal": 12,
+          "Ladies": 6
+        },
+        "3A": {
+          "General": 30,
+          "Tatkal": 6,
+          "Ladies": 2
+        },
+        "2A": {
+          "General": 0,
+          "Tatkal": 1,
+          "Ladies": 0
+        },
+        "1A": {
+          "General": 2,
+          "Tatkal": 0,
+          "Ladies": 0
+        }
+      },
+      "fare": {
+        "SL": 380,
+        "3A": 1010,
+        "2A": 1440,
+        "1A": 2430
+      }
+    },
+    {
+      "id": "4",
+      "number": "12759",
+      "name": "Charminar Express",
+      "source": "Chennai",
+      "destination": "Hyderabad",
+      "departure": "18:10",
+      "arrival": "08:00",
+
+      "arrivalDay": 2,
+      "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      "availability": {
+        "SL": {
+          "General": 0,
+          "Tatkal": 5,
+          "Ladies": 2
+        },
+        "3A": {
+          "General": 25,
+          "Tatkal": 4,
+          "Ladies": 0
+        },
+        "2A": {
+          "General": 8,
+          "Tatkal": 2,
+          "Ladies": 0
+        },
+        "1A": {
+          "General": 0,
+          "Tatkal": 0,
+          "Ladies": 0
+        }
+      },
+      "fare": {
+        "SL": 410,
+        "3A": 1090,
+        "2A": 1550,
+        "1A": 2620
+      }
+    },
+    {
+      "id": "5",
+      "number": "12621",
+      "name": "Tamil Nadu Express",
+      "source": "Chennai",
+      "destination": "Delhi",
+      "departure": "22:00",
+      "arrival": "07:10",
+
+      "arrivalDay": 3,
+      "days": ["Sun", "Tue", "Thu", "Sat"],
+      "availability": {
+        "SL": {
+          "General": 150,
+          "Tatkal": 20,
+          "Ladies": 6
+        },
+        "3A": {
+          "General": 55,
+          "Tatkal": 10,
+          "Ladies": 2
+        },
+        "2A": {
+          "General": 14,
+          "Tatkal": 3,
+          "Ladies": 0
+        },
+        "1A": {
+          "General": 6,
+          "Tatkal": 0,
+          "Ladies": 0
+        }
+      },
+      "fare": {
+        "SL": 820,
+        "3A": 2150,
+        "2A": 3120,
+        "1A": 5340
+      }
+    },
+    {
+      "id": "6",
+      "number": "12951",
+      "name": "Mumbai Rajdhani",
+      "source": "Mumbai",
+      "destination": "Delhi",
+      "departure": "17:00",
+      "arrival": "08:30",
+
+      "arrivalDay": 2,
+      "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      "availability": {
+        "3A": {
+          "General": 70,
+          "Tatkal": 12,
+          "Ladies": 4
+        },
+        "2A": {
+          "General": 22,
+          "Tatkal": 4,
+          "Ladies": 0
+        },
+        "1A": {
+          "General": 8,
+          "Tatkal": 2,
+          "Ladies": 0
+        }
+      },
+      "fare": {
+        "3A": 2890,
+        "2A": 4010,
+        "1A": 4730
+      }
+    },
+    {
+      "id": "7",
+      "number": "12627",
+      "name": "Karnataka Express",
+      "source": "Bengaluru",
+      "destination": "Delhi",
+      "departure": "19:20",
+      "arrival": "10:40",
+
+      "arrivalDay": 3,
+      "days": ["Mon", "Wed", "Fri"],
+      "availability": {
+        "SL": {
+          "General": 80,
+          "Tatkal": 14,
+          "Ladies": 6
+        },
+        "3A": {
+          "General": 18,
+          "Tatkal": 0,
+          "Ladies": 2
+        },
+        "2A": {
+          "General": 0,
+          "Tatkal": 0,
+          "Ladies": 0
+        }
+      },
+      "fare": {
+        "SL": 890,
+        "3A": 2330,
+        "2A": 3390
+      }
+    },
+    {
+      "id": "8",
+      "number": "12723",
+      "name": "Telangana Express",
+      "source": "Hyderabad",
+      "destination": "Delhi",
+      "departure": "06:00",
+      "arrival": "07:40",
+
+      "arrivalDay": 2,
+      "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      "availability": {
+        "SL": {
+          "General": 110,
+          "Tatkal": 16,
+          "Ladies": 6
+        },
+        "3A": {
+          "General": 36,
+          "Tatkal": 6,
+          "Ladies": 2
+        },
+        "2A": {
+          "General": 12,
+          "Tatkal": 2,
+          "Ladies": 0
+        },
+        "1A": {
+          "General": 3,
+          "Tatkal": 0,
+          "Ladies": 0
+        }
+      },
+      "fare": {
+        "SL": 700,
+        "3A": 1840,
+        "2A": 2660,
+        "1A": 4520
+      }
+    }
+  ],
+  "bookings": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

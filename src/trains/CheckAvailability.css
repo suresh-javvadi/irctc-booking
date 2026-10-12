@@ -1,0 +1,40 @@
+.train {
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.train h4,
+.train p {
+  margin: 0 0 8px;
+}
+
+.class-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.class-box {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 13px;
+  color: inherit;
+  text-decoration: none;
+}
+
+a.class-box:hover {
+  border-color: green;
+}
+
+.available {
+  color: green;
+}
+
+.not-available {
+  color: red;
+}

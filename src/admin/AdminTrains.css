@@ -1,0 +1,30 @@
+.passengers .admin-form {
+  flex-direction: column;
+}
+
+.admin-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.admin-form td input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.admin-form .hint {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.admin-form button {
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.passengers .success {
+  color: green;
+  font-size: 13px;
+}

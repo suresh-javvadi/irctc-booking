@@ -1,0 +1,46 @@
+.passengers {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: sans-serif;
+}
+
+.passengers form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.passengers input,
+.passengers select,
+.passengers button {
+  padding: 8px;
+}
+
+.passengers table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.passengers th,
+.passengers td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.passengers .error {
+  color: red;
+  font-size: 13px;
+}
+
+.search-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-train-form {
+  display: flex;
+  gap: 8px;
+}
